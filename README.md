@@ -151,10 +151,27 @@ Hãy tự làm và đọc gợi ý trong sách trước khi xem lời giải.
 
 | Bài | Rating | Lời giải |
 |---|---|---|
-| Di chuyển thùng hàng | 0 | [1900-prefixsum-boxes](level1/06-tien-to/1900-prefixsum-boxes/solution.cpp) |
-| Phần thưởng | 0 | [1200-prefixsum-phanthuong](level1/06-tien-to/1200-prefixsum-phanthuong/solution.cpp) |
-| Tổng ba chiều | 0 | [1400-prefixsum-tongbachieu](level1/06-tien-to/1400-prefixsum-tongbachieu/solution.cpp) |
-| Tổng hình thoi | 0 | [1700-prefixsum-tonghinhthoi](level1/06-tien-to/1700-prefixsum-tonghinhthoi/solution.cpp) |
+| Tổng tiền tố | 800 | [800-prefixsum-tongdoan](level1/06-tien-to/800-prefixsum-tongdoan/solution.cpp) |
+| Trò chơi trên mảng | 1000 | [1000-prefixsum-trochoi](level1/06-tien-to/1000-prefixsum-trochoi/solution.cpp) |
+| Tổng tiền tố 2 chiều | 1000 | [1000-prefixsum-tonghaichieu](level1/06-tien-to/1000-prefixsum-tonghaichieu/solution.cpp) |
+| Chia hết cho d | 1100 | [1100-prefixsum-chiahet](level1/06-tien-to/1100-prefixsum-chiahet/solution.cpp) |
+| Mảng con có tổng lớn nhất | 1100 | [1100-prefixsum-maxsum](level1/06-tien-to/1100-prefixsum-maxsum/solution.cpp) |
+| Xâu con cân bằng | 1100 | [1100-prefixsum-canbang](level1/06-tien-to/1100-prefixsum-canbang/solution.cpp) |
+| CNTAVE | 1200 | [1200-prefixsum-cntave](level1/06-tien-to/1200-prefixsum-cntave/solution.cpp) |
+| DIVIDE LAND | 1200 | [1200-prefixsum-divideland](level1/06-tien-to/1200-prefixsum-divideland/solution.cpp) |
+| Khu vực | 1200 | [1200-prefixsum-khuvuc](level1/06-tien-to/1200-prefixsum-khuvuc/solution.cpp) |
+| MINGROUP | 1200 | [1200-prefixsum-mingroup](level1/06-tien-to/1200-prefixsum-mingroup/solution.cpp) |
+| Phần thưởng | 1200 | [1200-prefixsum-phanthuong](level1/06-tien-to/1200-prefixsum-phanthuong/solution.cpp) |
+| Tổng dãy con | 1200 | [1200-prefixsum-tongdaycon](level1/06-tien-to/1200-prefixsum-tongdaycon/solution.cpp) |
+| Truy vấn bậc thang | 1300 | [1300-prefixsum-bacthang](level1/06-tien-to/1300-prefixsum-bacthang/solution.cpp) |
+| Xâu con tỉ lệ | 1300 | [1300-prefixsum-tile](level1/06-tien-to/1300-prefixsum-tile/solution.cpp) |
+| MAXSUM2 | 1400 | [1400-prefixsum-maxsum2](level1/06-tien-to/1400-prefixsum-maxsum2/solution.cpp) |
+| Tổng ba chiều | 1400 | [1400-prefixsum-tongbachieu](level1/06-tien-to/1400-prefixsum-tongbachieu/solution.cpp) |
+| Dãy con lớn nhất trên vòng tròn | 1500 | [1500-prefixsum-maxvong](level1/06-tien-to/1500-prefixsum-maxvong/solution.cpp) |
+| Ma trận con tổng lớn nhất | 1600 | [1600-prefixsum-maxmatrix](level1/06-tien-to/1600-prefixsum-maxmatrix/solution.cpp) |
+| Khoảng cách nhỏ nhất | 1700 | [1700-prefixsum-khoangcach](level1/06-tien-to/1700-prefixsum-khoangcach/solution.cpp) |
+| Tổng hình thoi | 1700 | [1700-prefixsum-tonghinhthoi](level1/06-tien-to/1700-prefixsum-tonghinhthoi/solution.cpp) |
+| Di chuyển thùng hàng | 1900 | [1900-prefixsum-boxes](level1/06-tien-to/1900-prefixsum-boxes/solution.cpp) |
 
 ### Chương 7. Mảng hiệu
 

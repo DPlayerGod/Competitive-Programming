@@ -1,32 +1,25 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+long long q[500005], p[500005];
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    int T;
-    cin >> T;
-    while (T--) {
-        string s;
-        long long W;
-        cin >> s >> W;
-        // Mỗi bước đẩy thùng vào ô trống kề bên = đổi chỗ thùng với một ô trống,
-        // tức là "dời một ô trống" đi 1 bước. Vậy cần gom W ô trống liên tiếp (theo thứ tự)
-        // thành một khối liền nhau với tổng quãng dời nhỏ nhất.
-        vector<long long> q;                       // q_i = vị trí ô trống thứ i - i
-        for (long long i = 0; i < (long long)s.size(); i++)
-            if (s[i] == '.') q.push_back(i - (long long)q.size());
-        long long k = q.size();
-        if (k < W) { cout << -1 << "\n"; continue; }
-        vector<long long> pre(k + 1, 0);
-        for (int i = 0; i < k; i++) pre[i + 1] = pre[i] + q[i];
-        long long best = LLONG_MAX;
-        for (long long l = 0; l + W <= k; l++) {   // nhóm ô trống thứ l .. l + W - 1
-            long long r = l + W, m = l + W / 2;    // q tăng dần nên trung vị là q[m]
-            long long left = q[m] * (m - l) - (pre[m] - pre[l]);
-            long long right = (pre[r] - pre[m]) - q[m] * (r - m);
-            best = min(best, left + right);        // tổng |q_i - trung vị|
+    ios::sync_with_stdio(false); cin.tie(nullptr);
+    int t; cin>>t;
+    while(t--) {
+        string s; int w; cin>>s>>w;
+        int cnt=0;
+        for(int i=0;i<(int)s.size();i++) if(s[i]=='.') {
+            cnt++; q[cnt]=i+1-cnt;
         }
-        cout << best << "\n";
+        if(cnt<w) {cout<<-1<<'\n';continue;}
+        p[0]=0;
+        for(int i=1;i<=cnt;i++) p[i]=p[i-1]+q[i];
+        long long ans=LLONG_MAX;
+        for(int l=1;l+w-1<=cnt;l++) {
+            int r=l+w-1,m=(l+r)/2;
+            long long cost=q[m]*(m-l)-(p[m-1]-p[l-1])
+                          +(p[r]-p[m])-q[m]*(r-m);
+            ans=min(ans,cost);
+        }
+        cout<<ans<<'\n';
     }
 }

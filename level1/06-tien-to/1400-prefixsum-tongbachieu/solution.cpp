@@ -1,44 +1,27 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-// 3D prefix sums P[i][j][k] (flattened), each query by 8-term inclusion-exclusion.
-void solve() {
-    int m, n, r;
-    cin >> m >> n >> r;
-    int N = n + 1, R = r + 1;
-    vector<long long> P((size_t)(m + 1) * N * R, 0);
-    auto id = [&](int i, int j, int k) { return ((size_t)i * N + j) * R + k; };
+int main() {
+    ios::sync_with_stdio(false); cin.tie(nullptr);
+    int m, n, r; cin >> m >> n >> r;
+    // The padded volume is at most 8*m*n*r.
+    vector<long long> p(1LL*(m+1)*(n+1)*(r+1));
+    auto id = [=](int i, int j, int k) {
+        return (1LL*i*(n+1)+j)*(r+1)+k;
+    };
     for (int i = 1; i <= m; i++)
         for (int j = 1; j <= n; j++)
             for (int k = 1; k <= r; k++) {
-                long long a;
-                cin >> a;
-                P[id(i, j, k)] = a
-                    + P[id(i - 1, j, k)] + P[id(i, j - 1, k)] + P[id(i, j, k - 1)]
-                    - P[id(i - 1, j - 1, k)] - P[id(i - 1, j, k - 1)] - P[id(i, j - 1, k - 1)]
-                    + P[id(i - 1, j - 1, k - 1)];
+                long long x; cin >> x;
+                p[id(i,j,k)] = x+p[id(i-1,j,k)]+p[id(i,j-1,k)]
+                    +p[id(i,j,k-1)]-p[id(i-1,j-1,k)]
+                    -p[id(i-1,j,k-1)]-p[id(i,j-1,k-1)]
+                    +p[id(i-1,j-1,k-1)];
             }
-    int Q;
-    cin >> Q;
-    while (Q--) {
-        int i1, j1, k1, i2, j2, k2;
-        cin >> i1 >> j1 >> k1 >> i2 >> j2 >> k2;
-        i1--, j1--, k1--;
-        long long s = P[id(i2, j2, k2)]
-            - P[id(i1, j2, k2)] - P[id(i2, j1, k2)] - P[id(i2, j2, k1)]
-            + P[id(i1, j1, k2)] + P[id(i1, j2, k1)] + P[id(i2, j1, k1)]
-            - P[id(i1, j1, k1)];
-        cout << s << "\n";
+    int q; cin >> q;
+    while (q--) {
+        int x, y, z, u, v, w; cin >> x >> y >> z >> u >> v >> w;
+        x--; y--; z--;
+        cout << p[id(u,v,w)]-p[id(x,v,w)]-p[id(u,y,w)]-p[id(u,v,z)]
+             +p[id(x,y,w)]+p[id(x,v,z)]+p[id(u,y,z)]-p[id(x,y,z)] << '\n';
     }
-}
-
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int test_cases = 1;
-    while (test_cases--) {
-        solve();
-    }
-    return 0;
 }
