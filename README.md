@@ -177,21 +177,21 @@ Hãy tự làm và đọc gợi ý trong sách trước khi xem lời giải.
 
 | Bài | Rating | Lời giải |
 |---|---|---|
-| Bảng điều khiển | 0 | [1300-differencearray-bangdieukhien](level1/07-mang-hieu/1300-differencearray-bangdieukhien/solution.cpp) |
-| Bậc thang quà tặng | 0 | [1600-differencearray-bacthangquatang](level1/07-mang-hieu/1600-differencearray-bacthangquatang/solution.cpp) |
-| Bật đèn | 0 | [1500-differencearray-batden](level1/07-mang-hieu/1500-differencearray-batden/solution.cpp) |
-| Cập nhật đoạn | 0 | [1000-differencearray-capnhatdoan](level1/07-mang-hieu/1000-differencearray-capnhatdoan/solution.cpp) |
-| Dọn kho | 0 | [1500-differencearray-donkho](level1/07-mang-hieu/1500-differencearray-donkho/solution.cpp) |
-| Kiểm kê | 0 | [1100-differencearray-kiemke](level1/07-mang-hieu/1100-differencearray-kiemke/solution.cpp) |
-| Mượn phòng học | 0 | [1700-differencearray-muonphonghoc](level1/07-mang-hieu/1700-differencearray-muonphonghoc/solution.cpp) |
-| Mật thư | 0 | [1000-differencearray-matthu](level1/07-mang-hieu/1000-differencearray-matthu/solution.cpp) |
-| Nhà nghỉ | 0 | [1300-differencearray-nhanghi](level1/07-mang-hieu/1300-differencearray-nhanghi/solution.cpp) |
-| San bằng mảng | 0 | [1400-differencearray-sanbangmang](level1/07-mang-hieu/1400-differencearray-sanbangmang/solution.cpp) |
-| Sơn hàng rào | 0 | [1300-differencearray-sonhangrao](level1/07-mang-hieu/1300-differencearray-sonhangrao/solution.cpp) |
-| Trải thảm | 0 | [1300-differencearray-traitham](level1/07-mang-hieu/1300-differencearray-traitham/solution.cpp) |
-| Vòng chậu hoa | 0 | [1000-differencearray-vongchauhoa](level1/07-mang-hieu/1000-differencearray-vongchauhoa/solution.cpp) |
-| Đèn đường | 0 | [1000-differencearray-denduong](level1/07-mang-hieu/1000-differencearray-denduong/solution.cpp) |
-| Đắp đường | 0 | [1400-differencearray-dapduong](level1/07-mang-hieu/1400-differencearray-dapduong/solution.cpp) |
+| Cập nhật đoạn | 1000 | [1000-differencearray-capnhatdoan](level1/07-mang-hieu/1000-differencearray-capnhatdoan/solution.cpp) |
+| Mật thư | 1000 | [1000-differencearray-matthu](level1/07-mang-hieu/1000-differencearray-matthu/solution.cpp) |
+| Vòng chậu hoa | 1000 | [1000-differencearray-vongchauhoa](level1/07-mang-hieu/1000-differencearray-vongchauhoa/solution.cpp) |
+| Đèn đường | 1000 | [1000-differencearray-denduong](level1/07-mang-hieu/1000-differencearray-denduong/solution.cpp) |
+| Kiểm kê | 1100 | [1100-differencearray-kiemke](level1/07-mang-hieu/1100-differencearray-kiemke/solution.cpp) |
+| Bảng điều khiển | 1300 | [1300-differencearray-bangdieukhien](level1/07-mang-hieu/1300-differencearray-bangdieukhien/solution.cpp) |
+| Nhà nghỉ | 1300 | [1300-differencearray-nhanghi](level1/07-mang-hieu/1300-differencearray-nhanghi/solution.cpp) |
+| Sơn hàng rào | 1300 | [1300-differencearray-sonhangrao](level1/07-mang-hieu/1300-differencearray-sonhangrao/solution.cpp) |
+| Trải thảm | 1300 | [1300-differencearray-traitham](level1/07-mang-hieu/1300-differencearray-traitham/solution.cpp) |
+| San bằng mảng | 1400 | [1400-differencearray-sanbangmang](level1/07-mang-hieu/1400-differencearray-sanbangmang/solution.cpp) |
+| Đắp đường | 1400 | [1400-differencearray-dapduong](level1/07-mang-hieu/1400-differencearray-dapduong/solution.cpp) |
+| Bật đèn | 1500 | [1500-differencearray-batden](level1/07-mang-hieu/1500-differencearray-batden/solution.cpp) |
+| Dọn kho | 1500 | [1500-differencearray-donkho](level1/07-mang-hieu/1500-differencearray-donkho/solution.cpp) |
+| Bậc thang quà tặng | 1600 | [1600-differencearray-bacthangquatang](level1/07-mang-hieu/1600-differencearray-bacthangquatang/solution.cpp) |
+| Mượn phòng học | 1700 | [1700-differencearray-muonphonghoc](level1/07-mang-hieu/1700-differencearray-muonphonghoc/solution.cpp) |
 
 ### Chương 8. Hai con trỏ
 
