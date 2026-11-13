@@ -131,6 +131,22 @@ Hãy tự làm và đọc gợi ý trong sách trước khi xem lời giải.
 | Đếm số giá trị khác nhau | 0 | [900-sort-giatridangnhau](level1/04-sap-xep/900-sort-giatridangnhau/solution.cpp) |
 | Độ dài que | 0 | [1000-sort-dodaique](level1/04-sap-xep/1000-sort-dodaique/solution.cpp) |
 
+### Chương 5. Đếm phân phối
+
+| Bài | Rating | Lời giải |
+|---|---|---|
+| ICE SHOP | 800 | [800-counting-iceshop](level1/05-dem/800-counting-iceshop/solution.cpp) |
+| POINTS | 800 | [800-counting-points](level1/05-dem/800-counting-points/solution.cpp) |
+| SHOES SHOP | 800 | [800-counting-shoesshop](level1/05-dem/800-counting-shoesshop/solution.cpp) |
+| Difval | 900 | [900-counting-difval](level1/05-dem/900-counting-difval/solution.cpp) |
+| Giá trị thường xuyên | 900 | [900-counting-thuongxuyen](level1/05-dem/900-counting-thuongxuyen/solution.cpp) |
+| Đếm số | 900 | [900-counting-demso](level1/05-dem/900-counting-demso/solution.cpp) |
+| Count | 1100 | [1100-counting-count](level1/05-dem/1100-counting-count/solution.cpp) |
+| Cặp số đặc biệt | 1100 | [1100-counting-capsodacbiet](level1/05-dem/1100-counting-capsodacbiet/solution.cpp) |
+| Đếm cặp vui vẻ | 1200 | [1200-counting-capvuive](level1/05-dem/1200-counting-capvuive/solution.cpp) |
+| Cáp treo Thẳng Hàng | 1600 | [1600-counting-captreo](level1/05-dem/1600-counting-captreo/solution.cpp) |
+| Mê cung An lực | 1800 | [1800-counting-mecunganluc](level1/05-dem/1800-counting-mecunganluc/solution.cpp) |
+
 ### Chương 6. Mảng tiền tố
 
 | Bài | Rating | Lời giải |
