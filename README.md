@@ -1,9 +1,13 @@
-# Lời giải Tin học Level 1
+# Competitive Programming
+
+Lời giải các bài lập trình thi đấu, chia theo level và chuyên đề: `level1/<chuyên đề>/<bài>/solution.cpp`.
+
+## Level 1
 
 Lời giải tham khảo cho các bài trong sách bài giảng *Tin học Level 1*.
 Hãy tự làm và đọc gợi ý trong sách trước khi xem lời giải.
 
-## Chương 1. Toán cơ bản
+### Chương 1. Toán cơ bản
 
 | Bài | Rating | Lời giải |
 |---|---|---|
@@ -35,7 +39,7 @@ Hãy tự làm và đọc gợi ý trong sách trước khi xem lời giải.
 | Ước nguyên tố lớn nhất | 1300 | [level1-1300-math-uocntlonnhat](level1/01-toan/level1-1300-math-uocntlonnhat/solution.cpp) |
 | Số ước của n giai thừa | 1400 | [level1-1400-math-uocgiaithua](level1/01-toan/level1-1400-math-uocgiaithua/solution.cpp) |
 
-## Chương 2. Xâu
+### Chương 2. Xâu
 
 | Bài | Rating | Lời giải |
 |---|---|---|
@@ -60,7 +64,7 @@ Hãy tự làm và đọc gợi ý trong sách trước khi xem lời giải.
 | Cộng hai số lớn | 1200 | [level1-1200-string-congsolon](level1/02-xau/level1-1200-string-congsolon/solution.cpp) |
 | Nhân số lớn với số nhỏ | 1200 | [level1-1200-string-nhansolon](level1/02-xau/level1-1200-string-nhansolon/solution.cpp) |
 
-## Chương 3. vector
+### Chương 3. vector
 
 | Bài | Rating | Lời giải |
 |---|---|---|
@@ -78,7 +82,7 @@ Hãy tự làm và đọc gợi ý trong sách trước khi xem lời giải.
 | Đại hội võ lâm | 0 | [1200-vector-daihoi](level1/03-vector/1200-vector-daihoi/solution.cpp) |
 | Đếm bằng lower_bound / upper_bound | 0 | [1100-vector-bounds](level1/03-vector/1100-vector-bounds/solution.cpp) |
 
-## Chương 4. Sắp xếp
+### Chương 4. Sắp xếp
 
 | Bài | Rating | Lời giải |
 |---|---|---|
@@ -112,7 +116,7 @@ Hãy tự làm và đọc gợi ý trong sách trước khi xem lời giải.
 | Đếm số giá trị khác nhau | 0 | [900-sort-giatridangnhau](level1/04-sap-xep/900-sort-giatridangnhau/solution.cpp) |
 | Độ dài que | 0 | [1000-sort-dodaique](level1/04-sap-xep/1000-sort-dodaique/solution.cpp) |
 
-## Chương 5. pair, tuple, struct
+### Chương 5. pair, tuple, struct
 
 | Bài | Rating | Lời giải |
 |---|---|---|
@@ -125,7 +129,7 @@ Hãy tự làm và đọc gợi ý trong sách trước khi xem lời giải.
 | Sắp điểm | 0 | [800-pair-sapdiem](level1/05-pair-struct/800-pair-sapdiem/solution.cpp) |
 | Sắp ổn định | 0 | [1000-pair-sapondinh](level1/05-pair-struct/1000-pair-sapondinh/solution.cpp) |
 
-## Chương 7. Mảng tiền tố
+### Chương 7. Mảng tiền tố
 
 | Bài | Rating | Lời giải |
 |---|---|---|
@@ -134,7 +138,7 @@ Hãy tự làm và đọc gợi ý trong sách trước khi xem lời giải.
 | Tổng ba chiều | 0 | [1400-prefixsum-tongbachieu](level1/07-tien-to/1400-prefixsum-tongbachieu/solution.cpp) |
 | Tổng hình thoi | 0 | [1700-prefixsum-tonghinhthoi](level1/07-tien-to/1700-prefixsum-tonghinhthoi/solution.cpp) |
 
-## Chương 8. Mảng hiệu
+### Chương 8. Mảng hiệu
 
 | Bài | Rating | Lời giải |
 |---|---|---|
@@ -154,7 +158,7 @@ Hãy tự làm và đọc gợi ý trong sách trước khi xem lời giải.
 | Đèn đường | 0 | [1000-differencearray-denduong](level1/08-mang-hieu/1000-differencearray-denduong/solution.cpp) |
 | Đắp đường | 0 | [1400-differencearray-dapduong](level1/08-mang-hieu/1400-differencearray-dapduong/solution.cpp) |
 
-## Chương 9. Hai con trỏ
+### Chương 9. Hai con trỏ
 
 | Bài | Rating | Lời giải |
 |---|---|---|
@@ -184,7 +188,7 @@ Hãy tự làm và đọc gợi ý trong sách trước khi xem lời giải.
 | Đếm đoạn có tổng không vượt quá S | 0 | [1300-twopointers-countsegs](level1/09-hai-con-tro/1300-twopointers-countsegs/solution.cpp) |
 | Đọc sách | 0 | [1300-twopointers-books](level1/09-hai-con-tro/1300-twopointers-books/solution.cpp) |
 
-## Chương 10. map
+### Chương 10. map
 
 | Bài | Rating | Lời giải |
 |---|---|---|
@@ -197,7 +201,7 @@ Hãy tự làm và đọc gợi ý trong sách trước khi xem lời giải.
 | Từ điển | 0 | [800-map-tudien](level1/10-map/800-map-tudien/solution.cpp) |
 | Đếm tần suất | 0 | [800-map-demtansuat](level1/10-map/800-map-demtansuat/solution.cpp) |
 
-## Chương 11. set và multiset
+### Chương 11. set và multiset
 
 | Bài | Rating | Lời giải |
 |---|---|---|
@@ -219,7 +223,7 @@ Hãy tự làm và đọc gợi ý trong sách trước khi xem lời giải.
 | Đoạn dài nhất có max - min không quá k | 0 | [1400-multiset-maxmink](level1/11-set-multiset/1400-multiset-maxmink/solution.cpp) |
 | Đèn giao thông | 0 | [1400-set-dengiaothong](level1/11-set-multiset/1400-set-dengiaothong/solution.cpp) |
 
-## Chương 12. Hàng đợi ưu tiên
+### Chương 12. Hàng đợi ưu tiên
 
 | Bài | Rating | Lời giải |
 |---|---|---|
@@ -240,7 +244,7 @@ Hãy tự làm và đọc gợi ý trong sách trước khi xem lời giải.
 | Uống thuốc | 0 | [1500-pq-uongthuoc](level1/12-priority-queue/1500-pq-uongthuoc/solution.cpp) |
 | Vào nhà hàng | 0 | [1600-pq-nhahang](level1/12-priority-queue/1600-pq-nhahang/solution.cpp) |
 
-## Chương 13. Đệ quy
+### Chương 13. Đệ quy
 
 | Bài | Rating | Lời giải |
 |---|---|---|
@@ -250,7 +254,7 @@ Hãy tự làm và đọc gợi ý trong sách trước khi xem lời giải.
 | Tổng chữ số | 0 | [800-recursion-tongchuso](level1/13-de-quy/800-recursion-tongchuso/solution.cpp) |
 | Xâu đối xứng | 0 | [900-recursion-xaudoixung](level1/13-de-quy/900-recursion-xaudoixung/solution.cpp) |
 
-## Chương 14. Quay lui
+### Chương 14. Quay lui
 
 | Bài | Rating | Lời giải |
 |---|---|---|
