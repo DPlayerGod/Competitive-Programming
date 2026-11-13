@@ -227,36 +227,35 @@ Hãy tự làm và đọc gợi ý trong sách trước khi xem lời giải.
 
 | Bài | Rating | Lời giải |
 |---|---|---|
-| Bản ghi gần nhất | 0 | [1100-map-banghigannhat](level1/09-map/1100-map-banghigannhat/solution.cpp) |
-| Bầu lớp trưởng | 0 | [800-map-baulop](level1/09-map/800-map-baulop/solution.cpp) |
-| Hệ thống đăng ký | 0 | [900-map-dangky](level1/09-map/900-map-dangky/solution.cpp) |
-| Kệ sách | 0 | [1200-map-kesach](level1/09-map/1200-map-kesach/solution.cpp) |
-| Lũy thừa của 2 | 0 | [1200-map-luythua2](level1/09-map/1200-map-luythua2/solution.cpp) |
-| Quân xe | 0 | [1100-map-quanxe](level1/09-map/1100-map-quanxe/solution.cpp) |
-| Từ điển | 0 | [800-map-tudien](level1/09-map/800-map-tudien/solution.cpp) |
-| Đếm tần suất | 0 | [800-map-demtansuat](level1/09-map/800-map-demtansuat/solution.cpp) |
+| Bầu lớp trưởng | 800 | [800-map-baulop](level1/09-map/800-map-baulop/solution.cpp) |
+| Từ điển | 800 | [800-map-tudien](level1/09-map/800-map-tudien/solution.cpp) |
+| Đếm tần suất | 800 | [800-map-demtansuat](level1/09-map/800-map-demtansuat/solution.cpp) |
+| Hệ thống đăng ký | 900 | [900-map-dangky](level1/09-map/900-map-dangky/solution.cpp) |
+| Bản ghi gần nhất | 1100 | [1100-map-banghigannhat](level1/09-map/1100-map-banghigannhat/solution.cpp) |
+| Quân xe | 1100 | [1100-map-quanxe](level1/09-map/1100-map-quanxe/solution.cpp) |
+| Kệ sách | 1200 | [1200-map-kesach](level1/09-map/1200-map-kesach/solution.cpp) |
+| Lũy thừa của 2 | 1200 | [1200-map-luythua2](level1/09-map/1200-map-luythua2/solution.cpp) |
 
 ### Chương 10. set và multiset
 
 | Bài | Rating | Lời giải |
 |---|---|---|
-| Bản ghi khác nhau | 0 | [1000-set-banghikhacnhau](level1/10-set-multiset/1000-set-banghikhacnhau/solution.cpp) |
-| Các giá trị khác nhau | 0 | [800-set-khacnhau](level1/10-set-multiset/800-set-khacnhau/solution.cpp) |
-| Các tour du lịch | 0 | [1700-set-tours](level1/10-set-multiset/1700-set-tours/solution.cpp) |
-| Ghế trống | 0 | [1100-set-ghetrong](level1/10-set-multiset/1100-set-ghetrong/solution.cpp) |
-| Hàng đợi kép | 0 | [1100-set-hangdoikep](level1/10-set-multiset/1100-set-hangdoikep/solution.cpp) |
-| Lễ hội phim II | 0 | [1700-multiset-lehoiphim2](level1/10-set-multiset/1700-multiset-lehoiphim2/solution.cpp) |
-| Max và min của cửa sổ trượt | 0 | [1200-multiset-cuasotruot](level1/10-set-multiset/1200-multiset-cuasotruot/solution.cpp) |
-| Số gần nhất | 0 | [1200-set-sogannhat](level1/10-set-multiset/1200-set-sogannhat/solution.cpp) |
-| Số liền sau, số liền trước | 0 | [900-set-lienke](level1/10-set-multiset/900-set-lienke/solution.cpp) |
-| Thao tác trên multiset | 0 | [900-multiset-thaotac](level1/10-set-multiset/900-multiset-thaotac/solution.cpp) |
-| Thao tác trên tập hợp | 0 | [800-set-thaotac](level1/10-set-multiset/800-set-thaotac/solution.cpp) |
-| Trung vị cửa sổ trượt | 0 | [1800-multiset-trungvi](level1/10-set-multiset/1800-multiset-trungvi/solution.cpp) |
-| Tập điểm | 0 | [1000-set-tapdiem](level1/10-set-multiset/1000-set-tapdiem/solution.cpp) |
-| Vé hòa nhạc | 0 | [1200-multiset-vehoanhac](level1/10-set-multiset/1200-multiset-vehoanhac/solution.cpp) |
-| Xếp tháp | 0 | [1300-multiset-xepthap](level1/10-set-multiset/1300-multiset-xepthap/solution.cpp) |
-| Đoạn dài nhất có max - min không quá k | 0 | [1400-multiset-maxmink](level1/10-set-multiset/1400-multiset-maxmink/solution.cpp) |
-| Đèn giao thông | 0 | [1400-set-dengiaothong](level1/10-set-multiset/1400-set-dengiaothong/solution.cpp) |
+| Các giá trị khác nhau | 800 | [800-set-khacnhau](level1/10-set-multiset/800-set-khacnhau/solution.cpp) |
+| Thao tác trên tập hợp | 800 | [800-set-thaotac](level1/10-set-multiset/800-set-thaotac/solution.cpp) |
+| Số liền sau, số liền trước | 900 | [900-set-lienke](level1/10-set-multiset/900-set-lienke/solution.cpp) |
+| Thao tác trên multiset | 900 | [900-multiset-thaotac](level1/10-set-multiset/900-multiset-thaotac/solution.cpp) |
+| Bản ghi khác nhau | 1000 | [1000-set-banghikhacnhau](level1/10-set-multiset/1000-set-banghikhacnhau/solution.cpp) |
+| Tập điểm | 1000 | [1000-set-tapdiem](level1/10-set-multiset/1000-set-tapdiem/solution.cpp) |
+| Ghế trống | 1100 | [1100-set-ghetrong](level1/10-set-multiset/1100-set-ghetrong/solution.cpp) |
+| Hàng đợi kép | 1100 | [1100-set-hangdoikep](level1/10-set-multiset/1100-set-hangdoikep/solution.cpp) |
+| Max và min của cửa sổ trượt | 1200 | [1200-multiset-cuasotruot](level1/10-set-multiset/1200-multiset-cuasotruot/solution.cpp) |
+| Số gần nhất | 1200 | [1200-set-sogannhat](level1/10-set-multiset/1200-set-sogannhat/solution.cpp) |
+| Vé hòa nhạc | 1200 | [1200-multiset-vehoanhac](level1/10-set-multiset/1200-multiset-vehoanhac/solution.cpp) |
+| Xếp tháp | 1300 | [1300-multiset-xepthap](level1/10-set-multiset/1300-multiset-xepthap/solution.cpp) |
+| Đoạn dài nhất có max - min không quá k | 1400 | [1400-multiset-maxmink](level1/10-set-multiset/1400-multiset-maxmink/solution.cpp) |
+| Đèn giao thông | 1400 | [1400-set-dengiaothong](level1/10-set-multiset/1400-set-dengiaothong/solution.cpp) |
+| Các tour du lịch | 1700 | [1700-set-tours](level1/10-set-multiset/1700-set-tours/solution.cpp) |
+| Trung vị cửa sổ trượt | 1800 | [1800-multiset-trungvi](level1/10-set-multiset/1800-multiset-trungvi/solution.cpp) |
 
 ### Chương 11. Hàng đợi ưu tiên
 
