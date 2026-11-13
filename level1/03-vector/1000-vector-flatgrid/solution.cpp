@@ -4,8 +4,8 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);
     int n, m; cin >> n >> m;
-    vector<int> a((long long)n * m);             // "trải phẳng": ô (i, j) nằm ở a[i * m + j]
-    vector<long long> col(m, 0);                 // tổng từng cột: kích thước biết lúc chạy
+    vector<int> a((long long)n * m);       // ô (i, j) là a[i * m + j]
+    vector<long long> col(m, 0);           // tổng từng cột
     long long bestRow = LLONG_MIN;
     for (int i = 0; i < n; i++) {
         long long row = 0;

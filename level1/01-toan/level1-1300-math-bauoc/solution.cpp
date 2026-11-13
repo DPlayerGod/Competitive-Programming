@@ -11,7 +11,8 @@ bool isPrime(long long n) {
 int main() {
     long long n; cin >> n;
     int cnt = 0;
-    for (long long p = 2; p * p <= n; p++)      // số có đúng 3 ước là p^2 với p nguyên tố
+    // số có đúng 3 ước là p^2 với p nguyên tố
+    for (long long p = 2; p * p <= n; p++)
         if (isPrime(p)) cnt++;
     cout << cnt << '\n';
 }

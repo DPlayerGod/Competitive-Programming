@@ -2,7 +2,7 @@
 using namespace std;
 
 const int N = 1000000;
-int cnt[N + 1], sum_[N + 1];                // tổng ước của x <= 10^6 nhỏ hơn 5 * 10^6
+int cnt[N + 1], sum_[N + 1];    // tổng ước của x <= 10^6 vừa int
 
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);

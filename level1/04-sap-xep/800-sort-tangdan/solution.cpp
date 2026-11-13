@@ -1,16 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+const int N = 200005;
+int a[N];
+
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    int n;
-    if (!(cin >> n)) return 0;
-    vector<int> a(n);
-    for (int i = 0; i < n; i++) cin >> a[i];
-    sort(a.begin(), a.end());
-    for (int i = 0; i < n; i++) {
-        cout << a[i] << (i + 1 == n ? '\n' : ' ');
-    }
-    return 0;
+    ios::sync_with_stdio(false); cin.tie(nullptr);
+    int n; cin >> n;
+    for (int i = 1; i <= n; i++) cin >> a[i];
+    sort(a + 1, a + n + 1);
+    for (int i = 1; i <= n; i++) cout << a[i] << (i == n ? '\n' : ' ');
 }

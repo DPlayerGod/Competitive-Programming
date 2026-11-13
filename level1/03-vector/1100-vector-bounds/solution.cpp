@@ -6,7 +6,7 @@ int main() {
     int n, q; cin >> n >> q;
     vector<int> a(n);
     for (int &x : a) cin >> x;
-    sort(a.begin(), a.end());                    // lower_bound / upper_bound cần dãy đã sắp
+    sort(a.begin(), a.end());                    // lower_bound cần dãy đã sắp
     while (q--) {
         int t; cin >> t;
         if (t == 1) {                            // số phần tử < x
@@ -17,7 +17,9 @@ int main() {
             cout << upper_bound(a.begin(), a.end(), x) - a.begin() << '\n';
         } else if (t == 3) {                     // số phần tử trong [l, r]
             int l, r; cin >> l >> r;
-            cout << upper_bound(a.begin(), a.end(), r) - lower_bound(a.begin(), a.end(), l) << '\n';
+            int le = upper_bound(a.begin(), a.end(), r) - a.begin();  // <= r
+            int lt = lower_bound(a.begin(), a.end(), l) - a.begin();  // < l
+            cout << le - lt << '\n';
         } else {                                 // số nhỏ nhất >= x
             int x; cin >> x;
             auto it = lower_bound(a.begin(), a.end(), x);

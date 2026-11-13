@@ -8,7 +8,7 @@ int main() {
     string res;
     long long carry = 0;
     for (int i = (int)a.size() - 1; i >= 0; i--) {
-        long long d = (a[i] - '0') * k + carry;   // tối đa 9 * 10^9 + carry: cần long long
+        long long d = (a[i] - '0') * k + carry;   // tới 9 * 10^9: long long
         res += char('0' + d % 10);
         carry = d / 10;
     }

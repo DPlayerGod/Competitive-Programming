@@ -6,8 +6,8 @@ int main() {
     int n; cin >> n;
     vector<int> a(n);
     for (int &x : a) cin >> x;
-    sort(a.begin(), a.end());                       // các số bằng nhau đứng cạnh nhau
-    a.erase(unique(a.begin(), a.end()), a.end());   // unique dồn số khác nhau lên đầu, erase cắt đuôi
+    sort(a.begin(), a.end());                       // số bằng nhau liền nhau
+    a.erase(unique(a.begin(), a.end()), a.end());   // bỏ trùng, cắt đuôi
     for (int x : a) cout << x << ' ';
     cout << '\n';
 }

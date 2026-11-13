@@ -8,8 +8,8 @@ int main() {
     for (int &x : a) cin >> x;
     vector<int> b = a;
     sort(b.begin(), b.end());
-    b.erase(unique(b.begin(), b.end()), b.end());          // b = các giá trị khác nhau, tăng dần
-    for (int x : a)
-        cout << lower_bound(b.begin(), b.end(), x) - b.begin() + 1 << ' ';   // thứ hạng của x
+    b.erase(unique(b.begin(), b.end()), b.end());   // b: các giá trị khác nhau
+    for (int x : a)                                 // thứ hạng của x
+        cout << lower_bound(b.begin(), b.end(), x) - b.begin() + 1 << ' ';
     cout << '\n';
 }

@@ -1,19 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+const int N = 200005;
+pair<int, int> v[N];                        // (giá trị, chỉ số ban đầu)
+
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);
-    int n;
-    if (!(cin >> n)) return 0;
-    vector<pair<int,int>> v(n);
-    for (int i = 0; i < n; i++) {
+    int n; cin >> n;
+    for (int i = 1; i <= n; i++) {
         cin >> v[i].first;
-        v[i].second = i + 1;
+        v[i].second = i;
     }
-    sort(v.begin(), v.end());
-    for (int i = 0; i < n; i++) {
-        if (i > 0) cout << ' ';
-        cout << v[i].second;
-    }
-    cout << '\n';
+    sort(v + 1, v + n + 1);
+    for (int i = 1; i <= n; i++) cout << v[i].second << (i == n ? '\n' : ' ');
 }

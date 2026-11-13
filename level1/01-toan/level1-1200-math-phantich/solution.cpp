@@ -13,7 +13,7 @@ int main() {
         if (e > 1) cout << '^' << e;
         first = false;
     }
-    if (n > 1) {                                 // phần còn lại > 1 là một số nguyên tố lớn
+    if (n > 1) {                    // phần còn lại là một số nguyên tố lớn
         if (!first) cout << " * ";
         cout << n;
     }

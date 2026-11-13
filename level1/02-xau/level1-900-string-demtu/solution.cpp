@@ -8,7 +8,7 @@ int main() {
     int cnt = 0;
     while (ss >> w) {
         cnt++;
-        if (w.size() > longest.size()) longest = w;   // ">" : bằng nhau giữ từ xuất hiện trước
+        if (w.size() > longest.size()) longest = w;  // ">": giữ từ trước
     }
     cout << cnt << '\n' << longest << '\n';
 }

@@ -1,18 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+const int N = 200005;
+pair<int, int> p[N];                        // (kết thúc, bắt đầu)
+
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);
-    int n;
-    if (!(cin >> n)) return 0;
-    vector<pair<int,int>> m(n);
-    for (auto &p : m) cin >> p.second >> p.first;
-    sort(m.begin(), m.end());
+    int n; cin >> n;
+    for (int i = 1; i <= n; i++) cin >> p[i].second >> p[i].first;
+    sort(p + 1, p + n + 1);                 // kết thúc sớm đứng trước
     int cnt = 0, lastEnd = 0;
-    for (auto &p : m) {
-        if (p.second >= lastEnd) {
+    for (int i = 1; i <= n; i++) {
+        if (p[i].second >= lastEnd) {       // bắt đầu sau phim vừa chọn
             cnt++;
-            lastEnd = p.first;
+            lastEnd = p[i].first;
         }
     }
     cout << cnt << '\n';

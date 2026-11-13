@@ -1,6 +1,6 @@
 # Nén giá trị
 
-- Chương 3: vector
+- Chương 3: vector, pair, struct
 - Rating: 0
 - Nộp bài: `1100-vector-compress` (Polygon)
 

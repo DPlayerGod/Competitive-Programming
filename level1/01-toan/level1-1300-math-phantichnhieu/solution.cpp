@@ -2,7 +2,7 @@
 using namespace std;
 
 const int N = 10000000;
-int spf[N + 1];                             // spf[x] = ước nguyên tố nhỏ nhất của x
+int spf[N + 1];                 // spf[x] = ước nguyên tố nhỏ nhất của x
 
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);
