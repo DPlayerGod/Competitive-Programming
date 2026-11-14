@@ -2,26 +2,14 @@
 using namespace std;
 
 string s;
-
-// s[l..r] is a palindrome iff s[l] == s[r] and s[l+1..r-1] is one. O(1) per call.
-bool check(int l, int r) {
-    if (l >= r) return true;
-    if (s[l] != s[r]) return false;
-    return check(l + 1, r - 1);
+bool checkPairs(int l, int r) {
+    if (l > r) return true;
+    if (l == r) return s[l] == s[(int)s.size() - 1 - l];
+    int mid = (l + r) / 2;
+    return checkPairs(l, mid) && checkPairs(mid + 1, r);
 }
-
-void solve() {
-    cin >> s;
-    cout << (check(0, (int)s.size() - 1) ? "YES" : "NO") << "\n";
-}
-
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int test_cases = 1;
-    while (test_cases--) {
-        solve();
-    }
-    return 0;
+    ios::sync_with_stdio(false); cin.tie(nullptr);
+    cin >> s;
+    cout << (checkPairs(0, (int)s.size() / 2 - 1) ? "YES" : "NO") << '\n';
 }

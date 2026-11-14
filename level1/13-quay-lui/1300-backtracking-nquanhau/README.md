@@ -1,7 +1,7 @@
 # N quân hậu
 
 - Chương 13: Quay lui
-- Rating: 0
-- Nộp bài: `1300-backtracking-nquanhau` (Polygon)
+- Rating: 1300
+- Nộp bài: `1300-backtracking-nquanhau` (chưa có link nộp bài)
 
 Lời giải: [solution.cpp](solution.cpp)

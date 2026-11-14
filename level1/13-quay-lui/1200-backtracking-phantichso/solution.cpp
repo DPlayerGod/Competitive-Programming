@@ -1,34 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-vector<int> cur;
-
-// State (rem, minv): rem is still to be split, the next part must be >= minv.
-void part(int rem, int minv) {
+int n, a[35];
+void go(int i, int rem, int low) {
     if (rem == 0) {
-        for (int j = 0; j < (int)cur.size(); j++) cout << cur[j] << (j + 1 == (int)cur.size() ? '\n' : ' ');
+        for (int j = 1; j < i; j++) cout << a[j] << (j == i - 1 ? '\n' : ' ');
         return;
     }
-    for (int v = minv; v <= rem; v++) {
-        cur.push_back(v);
-        part(rem - v, v);
-        cur.pop_back();
+    for (int v = low; v <= rem; v++) {
+        a[i] = v; go(i + 1, rem - v, v);
     }
 }
-
-void solve() {
-    int n;
-    cin >> n;
-    part(n, 1);
-}
-
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int test_cases = 1;
-    while (test_cases--) {
-        solve();
-    }
-    return 0;
+    ios::sync_with_stdio(false); cin.tie(nullptr);
+    cin >> n; go(1, n, 1);
 }

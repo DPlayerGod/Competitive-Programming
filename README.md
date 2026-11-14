@@ -282,33 +282,33 @@ Hãy tự làm và đọc gợi ý trong sách trước khi xem lời giải.
 
 | Bài | Rating | Lời giải |
 |---|---|---|
-| Lũy thừa | 0 | [1000-recursion-luythua](level1/12-de-quy/1000-recursion-luythua/solution.cpp) |
-| Số Fibonacci | 0 | [1500-recursion-fibonacci](level1/12-de-quy/1500-recursion-fibonacci/solution.cpp) |
-| Tháp Hà Nội | 0 | [1000-recursion-thaphanoi](level1/12-de-quy/1000-recursion-thaphanoi/solution.cpp) |
-| Tổng chữ số | 0 | [800-recursion-tongchuso](level1/12-de-quy/800-recursion-tongchuso/solution.cpp) |
-| Xâu đối xứng | 0 | [900-recursion-xaudoixung](level1/12-de-quy/900-recursion-xaudoixung/solution.cpp) |
+| Tổng chữ số | 800 | [800-recursion-tongchuso](level1/12-de-quy/800-recursion-tongchuso/solution.cpp) |
+| Xâu đối xứng | 900 | [900-recursion-xaudoixung](level1/12-de-quy/900-recursion-xaudoixung/solution.cpp) |
+| Lũy thừa | 1000 | [1000-recursion-luythua](level1/12-de-quy/1000-recursion-luythua/solution.cpp) |
+| Tháp Hà Nội | 1000 | [1000-recursion-thaphanoi](level1/12-de-quy/1000-recursion-thaphanoi/solution.cpp) |
+| Số Fibonacci | 1500 | [1500-recursion-fibonacci](level1/12-de-quy/1500-recursion-fibonacci/solution.cpp) |
 
 ### Chương 13. Quay lui
 
 | Bài | Rating | Lời giải |
 |---|---|---|
-| Biểu thức | 0 | [1600-backtracking-bieuthuc](level1/13-quay-lui/1600-backtracking-bieuthuc/solution.cpp) |
-| Bể chứa nước | 0 | [1700-backtracking-bechuanuoc](level1/13-quay-lui/1700-backtracking-bechuanuoc/solution.cpp) |
-| Chia táo | 0 | [1200-backtracking-chiatao](level1/13-quay-lui/1200-backtracking-chiatao/solution.cpp) |
-| Dãy ngoặc đúng | 0 | [1200-backtracking-dayngoacdung](level1/13-quay-lui/1200-backtracking-dayngoacdung/solution.cpp) |
-| Hoán vị | 0 | [900-backtracking-hoanvi](level1/13-quay-lui/900-backtracking-hoanvi/solution.cpp) |
-| Hoán vị xâu không lặp | 0 | [1300-backtracking-hoanvixau](level1/13-quay-lui/1300-backtracking-hoanvixau/solution.cpp) |
-| Két sắt | 0 | [1900-backtracking-ketsat](level1/13-quay-lui/1900-backtracking-ketsat/solution.cpp) |
-| Mê cung | 0 | [1300-backtracking-mecung](level1/13-quay-lui/1300-backtracking-mecung/solution.cpp) |
-| N quân hậu | 0 | [1300-backtracking-nquanhau](level1/13-quay-lui/1300-backtracking-nquanhau/solution.cpp) |
-| Người giao hàng | 0 | [1500-backtracking-nguoigiaohang](level1/13-quay-lui/1500-backtracking-nguoigiaohang/solution.cpp) |
-| Phân tích số | 0 | [1200-backtracking-phantichso](level1/13-quay-lui/1200-backtracking-phantichso/solution.cpp) |
-| Số ước số | 0 | [1900-backtracking-souocso](level1/13-quay-lui/1900-backtracking-souocso/solution.cpp) |
-| Tập con có tổng bằng S | 0 | [1200-backtracking-tapcontongs](level1/13-quay-lui/1200-backtracking-tapcontongs/solution.cpp) |
-| Tổ hợp chập k | 0 | [1000-backtracking-tohop](level1/13-quay-lui/1000-backtracking-tohop/solution.cpp) |
-| Xâu nhị phân | 0 | [1000-backtracking-xaunhiphan](level1/13-quay-lui/1000-backtracking-xaunhiphan/solution.cpp) |
-| Xâu đầy đủ | 0 | [1800-backtracking-xaudaydu](level1/13-quay-lui/1800-backtracking-xaudaydu/solution.cpp) |
-| Xếp hình | 0 | [2200-backtracking-xephinh](level1/13-quay-lui/2200-backtracking-xephinh/solution.cpp) |
-| Điền chữ L | 0 | [1600-backtracking-dienchul](level1/13-quay-lui/1600-backtracking-dienchul/solution.cpp) |
-| Đếm dãy GCD | 0 | [1800-backtracking-demdaygcd](level1/13-quay-lui/1800-backtracking-demdaygcd/solution.cpp) |
-| Đổi dấu | 0 | [1500-backtracking-doidau](level1/13-quay-lui/1500-backtracking-doidau/solution.cpp) |
+| Hoán vị | 900 | [900-backtracking-hoanvi](level1/13-quay-lui/900-backtracking-hoanvi/solution.cpp) |
+| Tổ hợp chập k | 1000 | [1000-backtracking-tohop](level1/13-quay-lui/1000-backtracking-tohop/solution.cpp) |
+| Xâu nhị phân | 1000 | [1000-backtracking-xaunhiphan](level1/13-quay-lui/1000-backtracking-xaunhiphan/solution.cpp) |
+| Chia táo | 1200 | [1200-backtracking-chiatao](level1/13-quay-lui/1200-backtracking-chiatao/solution.cpp) |
+| Dãy ngoặc đúng | 1200 | [1200-backtracking-dayngoacdung](level1/13-quay-lui/1200-backtracking-dayngoacdung/solution.cpp) |
+| Phân tích số | 1200 | [1200-backtracking-phantichso](level1/13-quay-lui/1200-backtracking-phantichso/solution.cpp) |
+| Tập con có tổng bằng S | 1200 | [1200-backtracking-tapcontongs](level1/13-quay-lui/1200-backtracking-tapcontongs/solution.cpp) |
+| Hoán vị xâu không lặp | 1300 | [1300-backtracking-hoanvixau](level1/13-quay-lui/1300-backtracking-hoanvixau/solution.cpp) |
+| Mê cung | 1300 | [1300-backtracking-mecung](level1/13-quay-lui/1300-backtracking-mecung/solution.cpp) |
+| N quân hậu | 1300 | [1300-backtracking-nquanhau](level1/13-quay-lui/1300-backtracking-nquanhau/solution.cpp) |
+| Người giao hàng | 1500 | [1500-backtracking-nguoigiaohang](level1/13-quay-lui/1500-backtracking-nguoigiaohang/solution.cpp) |
+| Đổi dấu | 1500 | [1500-backtracking-doidau](level1/13-quay-lui/1500-backtracking-doidau/solution.cpp) |
+| Biểu thức | 1600 | [1600-backtracking-bieuthuc](level1/13-quay-lui/1600-backtracking-bieuthuc/solution.cpp) |
+| Điền chữ L | 1600 | [1600-backtracking-dienchul](level1/13-quay-lui/1600-backtracking-dienchul/solution.cpp) |
+| Bể chứa nước | 1700 | [1700-backtracking-bechuanuoc](level1/13-quay-lui/1700-backtracking-bechuanuoc/solution.cpp) |
+| Xâu đầy đủ | 1800 | [1800-backtracking-xaudaydu](level1/13-quay-lui/1800-backtracking-xaudaydu/solution.cpp) |
+| Đếm dãy GCD | 1800 | [1800-backtracking-demdaygcd](level1/13-quay-lui/1800-backtracking-demdaygcd/solution.cpp) |
+| Két sắt | 1900 | [1900-backtracking-ketsat](level1/13-quay-lui/1900-backtracking-ketsat/solution.cpp) |
+| Số ước số | 1900 | [1900-backtracking-souocso](level1/13-quay-lui/1900-backtracking-souocso/solution.cpp) |
+| Xếp hình | 2200 | [2200-backtracking-xephinh](level1/13-quay-lui/2200-backtracking-xephinh/solution.cpp) |

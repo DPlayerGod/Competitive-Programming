@@ -1,64 +1,32 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int n, m, x;
-int need[10];                    // a[i] must be a multiple of need[i]
-vector<pair<int, int>> con[10];  // con[i]: constraints (j, g) with j < i
-vector<int> order;               // variables that appear in some constraint
-int a[10];
-long long cnt = 0;
-
-// Only constrained variables are tried; each tries multiples of need[i] and checks
-// its constraints with already assigned (earlier) variables.
-void go(int k) {
-    if (k == (int)order.size()) {
-        cnt++;
-        return;
-    }
-    int i = order[k];
+int n, m, x, a[12], need[12], req[12][12];
+long long ans;
+void go(int i) {
+    if (i == n + 1) { ans++; return; }
+    if (need[i] == 1) { go(i + 1); return; }
     for (int v = need[i]; v <= x; v += need[i]) {
         bool ok = true;
-        for (auto [j, g] : con[i])
-            if (__gcd(v, a[j]) != g) {
-                ok = false;
-                break;
-            }
-        if (!ok) continue;
-        a[i] = v;
-        go(k + 1);
+        for (int j = 1; j < i; j++)
+            if (req[j][i] && gcd(a[j], v) != req[j][i]) ok = false;
+        if (ok) { a[i] = v; go(i + 1); }
     }
 }
-
-void solve() {
+int main() {
+    ios::sync_with_stdio(false); cin.tie(nullptr);
     cin >> n >> m >> x;
-    vector<bool> inv(n, false);
-    for (int i = 0; i < n; i++) need[i] = 1;
-    for (int t = 0; t < m; t++) {
-        int i, j, g;
-        cin >> i >> j >> g;
-        i--, j--;
+    fill(need + 1, need + n + 1, 1);
+    bool ok = true;
+    while (m--) {
+        int i, j, g; cin >> i >> j >> g;
         if (i > j) swap(i, j);
-        con[j].push_back({i, g});
-        inv[i] = inv[j] = true;
-        need[i] = need[i] / __gcd(need[i], g) * g;
-        need[j] = need[j] / __gcd(need[j], g) * g;
+        if (req[i][j] && req[i][j] != g) ok = false;
+        req[i][j] = g;
+        need[i] = lcm(need[i], g); need[j] = lcm(need[j], g);
     }
     long long freeWays = 1;
-    for (int i = 0; i < n; i++) {
-        if (inv[i]) order.push_back(i);
-        else freeWays *= x;  // a free variable takes any value in [1, x]
-    }
-    go(0);
-    cout << cnt * freeWays << "\n";
-}
-
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int test_cases = 1;
-    while (test_cases--) {
-        solve();
-    }
-    return 0;
+    for (int i = 1; i <= n; i++) if (need[i] == 1) freeWays *= x;
+    if (ok) go(1);
+    cout << ans * freeWays << '\n';
 }

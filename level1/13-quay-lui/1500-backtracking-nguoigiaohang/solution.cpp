@@ -2,44 +2,23 @@
 using namespace std;
 
 int n;
-long long c[12][12], best = LLONG_MAX, minEdge = LLONG_MAX;
-bool vis[12];
-
-// cnt cities visited, standing at u with cost so far. n - cnt + 1 edges remain
-// (including the way back), each costs at least minEdge: cut if that cannot beat best.
-void go(int u, int cnt, long long cost) {
-    if (cost + (n - cnt + 1) * minEdge >= best) return;
-    if (cnt == n) {
-        best = min(best, cost + c[u][0]);
-        return;
+long long a[12][12], best = LLONG_MAX, minEdge = LLONG_MAX;
+bool used[12];
+void go(int u, int taken, long long cost) {
+    if (cost + (n - taken + 1) * minEdge >= best) return;
+    if (taken == n) { best = min(best, cost + a[u][1]); return; }
+    for (int v = 2; v <= n; v++) if (!used[v]) {
+        used[v] = true;
+        go(v, taken + 1, cost + a[u][v]);
+        used[v] = false;
     }
-    for (int v = 0; v < n; v++)
-        if (!vis[v]) {
-            vis[v] = true;
-            go(v, cnt + 1, cost + c[u][v]);
-            vis[v] = false;
-        }
 }
-
-void solve() {
-    cin >> n;
-    for (int i = 0; i < n; i++)
-        for (int j = 0; j < n; j++) {
-            cin >> c[i][j];
-            if (i != j) minEdge = min(minEdge, c[i][j]);
-        }
-    vis[0] = true;
-    go(0, 1, 0);
-    cout << best << "\n";
-}
-
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int test_cases = 1;
-    while (test_cases--) {
-        solve();
+    ios::sync_with_stdio(false); cin.tie(nullptr);
+    cin >> n;
+    for (int i = 1; i <= n; i++) for (int j = 1; j <= n; j++) {
+        cin >> a[i][j];
+        if (i != j) minEdge = min(minEdge, a[i][j]);
     }
-    return 0;
+    used[1] = true; go(1, 1, 0); cout << best << '\n';
 }

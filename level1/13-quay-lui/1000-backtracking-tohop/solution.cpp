@@ -2,32 +2,17 @@
 using namespace std;
 
 int n, k, a[25];
-
-// Choosing the i-th number, the smallest allowed value is start. k - i numbers are
-// still needed, so the value can be at most n - (k - i) + 1.
-void comb(int i, int start) {
-    if (i == k) {
-        for (int j = 0; j < k; j++) cout << a[j] << (j == k - 1 ? '\n' : ' ');
+void go(int i, int start) {
+    if (i == k + 1) {
+        for (int j = 1; j <= k; j++) cout << a[j] << (j == k ? '\n' : ' ');
         return;
     }
-    for (int v = start; v <= n - (k - i) + 1; v++) {
+    for (int v = start; v <= n - (k - i); v++) {
         a[i] = v;
-        comb(i + 1, v + 1);
+        go(i + 1, v + 1);
     }
 }
-
-void solve() {
-    cin >> n >> k;
-    comb(0, 1);
-}
-
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int test_cases = 1;
-    while (test_cases--) {
-        solve();
-    }
-    return 0;
+    ios::sync_with_stdio(false); cin.tie(nullptr);
+    cin >> n >> k; go(1, 1);
 }

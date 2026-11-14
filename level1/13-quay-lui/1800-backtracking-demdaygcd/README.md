@@ -1,7 +1,7 @@
 # Đếm dãy GCD
 
 - Chương 13: Quay lui
-- Rating: 0
-- Nộp bài: `1800-backtracking-demdaygcd` (Polygon)
+- Rating: 1800
+- Nộp bài: `1800-backtracking-demdaygcd` (chưa có link nộp bài)
 
 Lời giải: [solution.cpp](solution.cpp)
