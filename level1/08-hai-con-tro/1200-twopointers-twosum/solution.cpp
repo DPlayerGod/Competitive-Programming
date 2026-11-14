@@ -1,21 +1,20 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+pair<long long,int> a[200005];
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);
+
     int n; long long x; cin >> n >> x;
-    vector<pair<long long,int>> a(n);           // (giá trị, vị trí ban đầu)
-    for (int i = 0; i < n; i++) { cin >> a[i].first; a[i].second = i + 1; }
-    sort(a.begin(), a.end());
-    int i = 0, j = n - 1;
-    while (i < j) {
-        long long s = a[i].first + a[j].first;
-        if (s == x) {
-            cout << min(a[i].second, a[j].second) << ' ' << max(a[i].second, a[j].second) << '\n';
+    for(int i=1;i<=n;i++) { cin >> a[i].first; a[i].second=i; }
+    sort(a+1,a+n+1);
+    int l=1,r=n;
+    while(l<r) {
+        long long s=a[l].first+a[r].first;
+        if(s==x) {
+            cout << a[l].second << ' ' << a[r].second << '\n';
             return 0;
         }
-        if (s < x) i++;    // cần tổng lớn hơn
-        else j--;          // cần tổng nhỏ hơn
+        if(s<x) l++; else r--;
     }
     cout << "IMPOSSIBLE\n";
 }

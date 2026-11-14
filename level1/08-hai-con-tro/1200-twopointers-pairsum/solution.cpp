@@ -1,19 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+long long a[200005];
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);
+
     int n; long long X; cin >> n >> X;
-    vector<long long> a(n);
-    for (auto &x : a) cin >> x;
-    sort(a.begin(), a.end());
-    long long cnt = 0;
-    int i = 0, j = n - 1;
-    while (i < j) {
-        if (a[i] + a[j] <= X) {
-            cnt += j - i;   // a[i] ghép được với mọi a[i+1..j]
-            i++;
-        } else j--;         // a[j] quá lớn, không ghép được với ai còn lại
+    for(int i=1;i<=n;i++) cin >> a[i];
+    sort(a+1,a+n+1);
+    int l=1,r=n; long long ans=0;
+    while(l<r) {
+        if(a[l]+a[r]<=X) { ans+=r-l; l++; }
+        else r--;
     }
-    cout << cnt << '\n';
+    cout << ans << '\n';
 }

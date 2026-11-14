@@ -3,15 +3,15 @@ using namespace std;
 
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);
+
     int n; long long x; cin >> n >> x;
-    map<long long, int> cnt;       // cnt[p] = số tiền tố có tổng bằng p
-    cnt[0] = 1;                    // tiền tố rỗng
-    long long pre = 0, ans = 0;
-    for (int i = 0; i < n; i++) {
-        long long v; cin >> v;
-        pre += v;
-        ans += cnt[pre - x];       // đoạn (j, i] có tổng x  <=>  pre_j = pre_i - x
-        cnt[pre]++;
+    map<long long,int> cnt; cnt[0]=1;
+    long long p=0,ans=0;
+    for(int i=1;i<=n;i++) {
+        long long a; cin >> a; p+=a;
+        auto it=cnt.find(p-x);
+        if(it!=cnt.end()) ans+=it->second;
+        cnt[p]++;
     }
     cout << ans << '\n';
 }

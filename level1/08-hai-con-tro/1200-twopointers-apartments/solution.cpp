@@ -1,19 +1,18 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+long long a[200005],b[200005];
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);
-    int n, m; long long k; cin >> n >> m >> k;
-    vector<long long> a(n), b(m);
-    for (auto &x : a) cin >> x;
-    for (auto &x : b) cin >> x;
-    sort(a.begin(), a.end());
-    sort(b.begin(), b.end());
-    int i = 0, j = 0, cnt = 0;
-    while (i < n && j < m) {
-        if (b[j] < a[i] - k) j++;          // căn hộ quá nhỏ: không ai sau này muốn
-        else if (b[j] > a[i] + k) i++;     // người này không có căn hộ nào vừa
-        else { cnt++; i++; j++; }          // ghép
+
+    int n,m; long long k; cin >> n >> m >> k;
+    for(int i=1;i<=n;i++) cin >> a[i];
+    for(int j=1;j<=m;j++) cin >> b[j];
+    sort(a+1,a+n+1); sort(b+1,b+m+1);
+    int i=1,j=1,ans=0;
+    while(i<=n && j<=m) {
+        if(b[j]<a[i]-k) j++;
+        else if(b[j]>a[i]+k) i++;
+        else { ans++; i++; j++; }
     }
-    cout << cnt << '\n';
+    cout << ans << '\n';
 }

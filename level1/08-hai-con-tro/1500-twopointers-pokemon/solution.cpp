@@ -1,17 +1,20 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+int cnt[128]; bool seen[128];
 int main() {
-    int n; string s;
-    cin >> n >> s;
-    set<char> types(s.begin(), s.end());
-    int need = types.size();             // số loại phải có
-    int cnt[128] = {0}, have = 0;        // have = số loại đang có trong cửa sổ
-    int l = 0, best = n;
-    for (int r = 0; r < n; r++) {
-        if (cnt[(int)s[r]]++ == 0) have++;
-        while (cnt[(int)s[l]] > 1) cnt[(int)s[l++]]--;   // bỏ phần tử trái nếu vẫn còn bản khác
-        if (have == need) best = min(best, r - l + 1);
+    ios::sync_with_stdio(false); cin.tie(nullptr);
+
+    int n; string s; cin >> n >> s; s=" "+s;
+    int need=0,have=0,l=1,ans=n;
+    for(int i=1;i<=n;i++) if(!seen[(int)s[i]]) {
+        seen[(int)s[i]]=true; need++;
     }
-    cout << best << '\n';
+    for(int r=1;r<=n;r++) {
+        if(cnt[(int)s[r]]++==0) have++;
+        while(have==need) {
+            ans=min(ans,r-l+1);
+            if(--cnt[(int)s[l++]]==0) have--;
+        }
+    }
+    cout << ans << '\n';
 }

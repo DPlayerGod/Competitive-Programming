@@ -1,17 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+long long a[200005];
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);
-    int n; long long x; cin >> n >> x;
-    vector<long long> a(n);
-    for (auto &v : a) cin >> v;
-    int l = 0;
-    long long sum = 0, cnt = 0;
-    for (int r = 0; r < n; r++) {
-        sum += a[r];
-        while (sum > x) sum -= a[l++];
-        if (sum == x) cnt++;       // mỗi r có tối đa một l cho tổng đúng bằng x (số dương)
+
+    int n; long long S; cin >> n >> S;
+    for(int i=1;i<=n;i++) cin >> a[i];
+    int l=1; long long s=0,ans=0;
+    for(int r=1;r<=n;r++) {
+        s+=a[r];
+        while(s>S) s-=a[l++];
+        if(s==S) ans++;
     }
-    cout << cnt << '\n';
+    cout << ans << '\n';
 }

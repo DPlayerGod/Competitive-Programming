@@ -1,21 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+long long a[200005],c[200005];
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);
+
     int n; cin >> n;
-    vector<long long> a(n), b(n), c(n);
-    for (auto &x : a) cin >> x;
-    for (auto &x : b) cin >> x;
-    for (int i = 0; i < n; i++) c[i] = a[i] - b[i];   // a_i + a_j > b_i + b_j  <=>  c_i + c_j > 0
-    sort(c.begin(), c.end());
-    long long cnt = 0;
-    int i = 0, j = n - 1;
-    while (i < j) {
-        if (c[i] + c[j] > 0) {
-            cnt += j - i;   // c[j] ghép được với mọi c[i..j-1]
-            j--;
-        } else i++;
+    for(int i=1;i<=n;i++) cin >> a[i];
+    for(int i=1;i<=n;i++) { long long b; cin >> b; c[i]=a[i]-b; }
+    sort(c+1,c+n+1);
+    int l=1,r=n; long long ans=0;
+    while(l<r) {
+        if(c[l]+c[r]>0) { ans+=r-l; r--; }
+        else l++;
     }
-    cout << cnt << '\n';
+    cout << ans << '\n';
 }

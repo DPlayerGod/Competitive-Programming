@@ -1,15 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+int a[200005],b[200005];
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);
-    int n, m; cin >> n >> m;
-    vector<int> a(n), b(m);
-    for (int &x : a) cin >> x;
-    for (int &x : b) cin >> x;
-    int j = 0;                              // b[0..j-1] là các số <= a[i]
-    for (int i = 0; i < n; i++) {
-        while (j < m && b[j] <= a[i]) j++;  // a[i] tăng nên j chỉ tiến, không lùi
+
+    int n,m; cin >> n >> m;
+    for(int i=1;i<=n;i++) cin >> a[i];
+    for(int j=1;j<=m;j++) cin >> b[j];
+    int j=0;
+    for(int i=1;i<=n;i++) {
+        while(j<m && b[j+1]<=a[i]) j++;
         cout << j << ' ';
     }
     cout << '\n';

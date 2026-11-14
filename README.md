@@ -197,31 +197,31 @@ Hãy tự làm và đọc gợi ý trong sách trước khi xem lời giải.
 
 | Bài | Rating | Lời giải |
 |---|---|---|
-| Alice, Bob và sô-cô-la | 0 | [1200-twopointers-chocolate](level1/08-hai-con-tro/1200-twopointers-chocolate/solution.cpp) |
-| Căn hộ | 0 | [1200-twopointers-apartments](level1/08-hai-con-tro/1200-twopointers-apartments/solution.cpp) |
-| Cặp chủ đề | 0 | [1400-twopointers-topics](level1/08-hai-con-tro/1400-twopointers-topics/solution.cpp) |
-| Danh sách phát | 0 | [1300-twopointers-playlist](level1/08-hai-con-tro/1300-twopointers-playlist/solution.cpp) |
-| Giao của hai dãy đã sắp | 0 | [900-twopointers-intersect](level1/08-hai-con-tro/900-twopointers-intersect/solution.cpp) |
-| Khi hai con trỏ thất bại | 0 | [1500-twopointers-sumneg](level1/08-hai-con-tro/1500-twopointers-sumneg/solution.cpp) |
-| Pokémon ở khắp nơi | 0 | [1500-twopointers-pokemon](level1/08-hai-con-tro/1500-twopointers-pokemon/solution.cpp) |
-| Truy vấn số nhỏ hơn hoặc bằng | 0 | [1300-twopointers-queriesle](level1/08-hai-con-tro/1300-twopointers-queriesle/solution.cpp) |
-| Tàu lượn | 0 | [1700-twopointers-glider](level1/08-hai-con-tro/1700-twopointers-glider/solution.cpp) |
-| Tổng ba số | 0 | [1400-twopointers-threesum](level1/08-hai-con-tro/1400-twopointers-threesum/solution.cpp) |
-| Tổng hai số | 0 | [1200-twopointers-twosum](level1/08-hai-con-tro/1200-twopointers-twosum/solution.cpp) |
-| Vasya và xâu | 0 | [1500-twopointers-abstring](level1/08-hai-con-tro/1500-twopointers-abstring/solution.cpp) |
-| Vòng đu quay | 0 | [1100-twopointers-ferris](level1/08-hai-con-tro/1100-twopointers-ferris/solution.cpp) |
-| Xâu tam phân | 0 | [1200-twopointers-ternary](level1/08-hai-con-tro/1200-twopointers-ternary/solution.cpp) |
-| Đoạn có ít giá trị khác nhau | 0 | [1500-twopointers-distinct](level1/08-hai-con-tro/1500-twopointers-distinct/solution.cpp) |
-| Đoạn có đúng k giá trị khác nhau | 0 | [1700-twopointers-exactk](level1/08-hai-con-tro/1700-twopointers-exactk/solution.cpp) |
-| Đoạn dài k có tổng lớn nhất | 0 | [1000-twopointers-windowk](level1/08-hai-con-tro/1000-twopointers-windowk/solution.cpp) |
-| Đoạn gần như hằng | 0 | [1400-twopointers-almostconst](level1/08-hai-con-tro/1400-twopointers-almostconst/solution.cpp) |
-| Đoạn ngắn nhất có tổng đủ lớn | 0 | [1300-twopointers-minlen](level1/08-hai-con-tro/1300-twopointers-minlen/solution.cpp) |
-| Đảo ngược và đối xứng | 0 | [800-twopointers-reverse](level1/08-hai-con-tro/800-twopointers-reverse/solution.cpp) |
-| Đếm cặp có tổng không vượt quá X | 0 | [1200-twopointers-pairsum](level1/08-hai-con-tro/1200-twopointers-pairsum/solution.cpp) |
-| Đếm số nhỏ hơn hoặc bằng | 0 | [1000-twopointers-countle](level1/08-hai-con-tro/1000-twopointers-countle/solution.cpp) |
-| Đếm đoạn có tổng bằng x | 0 | [1200-twopointers-sumx](level1/08-hai-con-tro/1200-twopointers-sumx/solution.cpp) |
-| Đếm đoạn có tổng không vượt quá S | 0 | [1300-twopointers-countsegs](level1/08-hai-con-tro/1300-twopointers-countsegs/solution.cpp) |
-| Đọc sách | 0 | [1300-twopointers-books](level1/08-hai-con-tro/1300-twopointers-books/solution.cpp) |
+| Đảo ngược và đối xứng | 800 | [800-twopointers-reverse](level1/08-hai-con-tro/800-twopointers-reverse/solution.cpp) |
+| Giao của hai dãy đã sắp | 900 | [900-twopointers-intersect](level1/08-hai-con-tro/900-twopointers-intersect/solution.cpp) |
+| Đoạn dài k có tổng lớn nhất | 1000 | [1000-twopointers-windowk](level1/08-hai-con-tro/1000-twopointers-windowk/solution.cpp) |
+| Đếm số nhỏ hơn hoặc bằng | 1000 | [1000-twopointers-countle](level1/08-hai-con-tro/1000-twopointers-countle/solution.cpp) |
+| Vòng đu quay | 1100 | [1100-twopointers-ferris](level1/08-hai-con-tro/1100-twopointers-ferris/solution.cpp) |
+| Alice, Bob và sô-cô-la | 1200 | [1200-twopointers-chocolate](level1/08-hai-con-tro/1200-twopointers-chocolate/solution.cpp) |
+| Căn hộ | 1200 | [1200-twopointers-apartments](level1/08-hai-con-tro/1200-twopointers-apartments/solution.cpp) |
+| Tổng hai số | 1200 | [1200-twopointers-twosum](level1/08-hai-con-tro/1200-twopointers-twosum/solution.cpp) |
+| Xâu tam phân | 1200 | [1200-twopointers-ternary](level1/08-hai-con-tro/1200-twopointers-ternary/solution.cpp) |
+| Đếm cặp có tổng không vượt quá X | 1200 | [1200-twopointers-pairsum](level1/08-hai-con-tro/1200-twopointers-pairsum/solution.cpp) |
+| Đếm đoạn có tổng bằng x | 1200 | [1200-twopointers-sumx](level1/08-hai-con-tro/1200-twopointers-sumx/solution.cpp) |
+| Danh sách phát | 1300 | [1300-twopointers-playlist](level1/08-hai-con-tro/1300-twopointers-playlist/solution.cpp) |
+| Truy vấn số nhỏ hơn hoặc bằng | 1300 | [1300-twopointers-queriesle](level1/08-hai-con-tro/1300-twopointers-queriesle/solution.cpp) |
+| Đoạn ngắn nhất có tổng đủ lớn | 1300 | [1300-twopointers-minlen](level1/08-hai-con-tro/1300-twopointers-minlen/solution.cpp) |
+| Đếm đoạn có tổng không vượt quá S | 1300 | [1300-twopointers-countsegs](level1/08-hai-con-tro/1300-twopointers-countsegs/solution.cpp) |
+| Đọc sách | 1300 | [1300-twopointers-books](level1/08-hai-con-tro/1300-twopointers-books/solution.cpp) |
+| Cặp chủ đề | 1400 | [1400-twopointers-topics](level1/08-hai-con-tro/1400-twopointers-topics/solution.cpp) |
+| Tổng ba số | 1400 | [1400-twopointers-threesum](level1/08-hai-con-tro/1400-twopointers-threesum/solution.cpp) |
+| Đoạn gần như hằng | 1400 | [1400-twopointers-almostconst](level1/08-hai-con-tro/1400-twopointers-almostconst/solution.cpp) |
+| Khi hai con trỏ thất bại | 1500 | [1500-twopointers-sumneg](level1/08-hai-con-tro/1500-twopointers-sumneg/solution.cpp) |
+| Pokémon ở khắp nơi | 1500 | [1500-twopointers-pokemon](level1/08-hai-con-tro/1500-twopointers-pokemon/solution.cpp) |
+| Vasya và xâu | 1500 | [1500-twopointers-abstring](level1/08-hai-con-tro/1500-twopointers-abstring/solution.cpp) |
+| Đoạn có ít giá trị khác nhau | 1500 | [1500-twopointers-distinct](level1/08-hai-con-tro/1500-twopointers-distinct/solution.cpp) |
+| Tàu lượn | 1700 | [1700-twopointers-glider](level1/08-hai-con-tro/1700-twopointers-glider/solution.cpp) |
+| Đoạn có đúng k giá trị khác nhau | 1700 | [1700-twopointers-exactk](level1/08-hai-con-tro/1700-twopointers-exactk/solution.cpp) |
 
 ### Chương 9. map
 
@@ -261,22 +261,22 @@ Hãy tự làm và đọc gợi ý trong sách trước khi xem lời giải.
 
 | Bài | Rating | Lời giải |
 |---|---|---|
-| Bí hiểm | 0 | [1700-pq-bihiem](level1/11-priority-queue/1700-pq-bihiem/solution.cpp) |
-| Di truyền | 0 | [1700-pq-ditruyen](level1/11-priority-queue/1700-pq-ditruyen/solution.cpp) |
-| K tổng bé nhất | 0 | [1600-pq-ktongbe](level1/11-priority-queue/1600-pq-ktongbe/solution.cpp) |
-| Không nhìn nhau nữa | 0 | [1700-pq-ograda](level1/11-priority-queue/1700-pq-ograda/solution.cpp) |
-| Lập lịch | 0 | [1700-pq-laplich](level1/11-priority-queue/1700-pq-laplich/solution.cpp) |
-| Lịch hẹn | 0 | [1000-pq-lichhen](level1/11-priority-queue/1000-pq-lichhen/solution.cpp) |
-| Lịch vắt sữa | 0 | [1500-pq-vatsua](level1/11-priority-queue/1500-pq-vatsua/solution.cpp) |
-| Nối dây | 0 | [1200-pq-noiday](level1/11-priority-queue/1200-pq-noiday/solution.cpp) |
-| Phân phòng | 0 | [1400-pq-phanphong](level1/11-priority-queue/1400-pq-phanphong/solution.cpp) |
-| Phòng khám | 0 | [900-pq-phongkham](level1/11-priority-queue/900-pq-phongkham/solution.cpp) |
-| Thao tác trên hàng đợi ưu tiên | 0 | [800-pq-thaotac](level1/11-priority-queue/800-pq-thaotac/solution.cpp) |
-| Trung vị động | 0 | [1500-pq-trungvidong](level1/11-priority-queue/1500-pq-trungvidong/solution.cpp) |
-| Trống đồng | 0 | [1500-pq-trongdong](level1/11-priority-queue/1500-pq-trongdong/solution.cpp) |
-| Tổng k số lớn nhất | 0 | [1100-pq-tongklon](level1/11-priority-queue/1100-pq-tongklon/solution.cpp) |
-| Uống thuốc | 0 | [1500-pq-uongthuoc](level1/11-priority-queue/1500-pq-uongthuoc/solution.cpp) |
-| Vào nhà hàng | 0 | [1600-pq-nhahang](level1/11-priority-queue/1600-pq-nhahang/solution.cpp) |
+| Thao tác trên hàng đợi ưu tiên | 800 | [800-pq-thaotac](level1/11-priority-queue/800-pq-thaotac/solution.cpp) |
+| Phòng khám | 900 | [900-pq-phongkham](level1/11-priority-queue/900-pq-phongkham/solution.cpp) |
+| Lịch hẹn | 1000 | [1000-pq-lichhen](level1/11-priority-queue/1000-pq-lichhen/solution.cpp) |
+| Tổng k số lớn nhất | 1100 | [1100-pq-tongklon](level1/11-priority-queue/1100-pq-tongklon/solution.cpp) |
+| Nối dây | 1200 | [1200-pq-noiday](level1/11-priority-queue/1200-pq-noiday/solution.cpp) |
+| Phân phòng | 1400 | [1400-pq-phanphong](level1/11-priority-queue/1400-pq-phanphong/solution.cpp) |
+| Lịch vắt sữa | 1500 | [1500-pq-vatsua](level1/11-priority-queue/1500-pq-vatsua/solution.cpp) |
+| Trung vị động | 1500 | [1500-pq-trungvidong](level1/11-priority-queue/1500-pq-trungvidong/solution.cpp) |
+| Trống đồng | 1500 | [1500-pq-trongdong](level1/11-priority-queue/1500-pq-trongdong/solution.cpp) |
+| Uống thuốc | 1500 | [1500-pq-uongthuoc](level1/11-priority-queue/1500-pq-uongthuoc/solution.cpp) |
+| K tổng bé nhất | 1600 | [1600-pq-ktongbe](level1/11-priority-queue/1600-pq-ktongbe/solution.cpp) |
+| Vào nhà hàng | 1600 | [1600-pq-nhahang](level1/11-priority-queue/1600-pq-nhahang/solution.cpp) |
+| Bí hiểm | 1700 | [1700-pq-bihiem](level1/11-priority-queue/1700-pq-bihiem/solution.cpp) |
+| Di truyền | 1700 | [1700-pq-ditruyen](level1/11-priority-queue/1700-pq-ditruyen/solution.cpp) |
+| Không nhìn nhau nữa | 1700 | [1700-pq-ograda](level1/11-priority-queue/1700-pq-ograda/solution.cpp) |
+| Lập lịch | 1700 | [1700-pq-laplich](level1/11-priority-queue/1700-pq-laplich/solution.cpp) |
 
 ### Chương 12. Đệ quy
 

@@ -1,20 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+int a[200005],b[200005],c[200005];
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);
-    int n, m; cin >> n >> m;
-    vector<int> a(n), b(m);
-    for (int &x : a) cin >> x;
-    for (int &x : b) cin >> x;
-    vector<int> c;
-    int i = 0, j = 0;
-    while (i < n && j < m) {
-        if (a[i] == b[j]) { c.push_back(a[i]); i++; j++; }   // chung: lấy, cả hai cùng tiến
-        else if (a[i] < b[j]) i++;                            // a[i] quá nhỏ, không thể gặp b nào nữa
+
+    int n,m; cin >> n >> m;
+    for(int i=1;i<=n;i++) cin >> a[i];
+    for(int j=1;j<=m;j++) cin >> b[j];
+    int i=1,j=1,t=0;
+    while(i<=n && j<=m) {
+        if(a[i]==b[j]) { c[++t]=a[i]; i++; j++; }
+        else if(a[i]<b[j]) i++;
         else j++;
     }
-    cout << c.size() << '\n';
-    for (int x : c) cout << x << ' ';
+    cout << t << '\n';
+    for(int k=1;k<=t;k++) cout << c[k] << ' ';
     cout << '\n';
 }

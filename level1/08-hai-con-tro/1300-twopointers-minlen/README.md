@@ -1,7 +1,7 @@
 # Đoạn ngắn nhất có tổng đủ lớn
 
 - Chương 8: Hai con trỏ
-- Rating: 0
-- Nộp bài: `1300-twopointers-minlen` (Polygon)
+- Rating: 1300
+- Nộp bài: `1300-twopointers-minlen` (chưa có link nộp bài)
 
 Lời giải: [solution.cpp](solution.cpp)

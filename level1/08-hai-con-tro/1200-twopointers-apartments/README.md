@@ -1,7 +1,7 @@
 # Căn hộ
 
 - Chương 8: Hai con trỏ
-- Rating: 0
-- Nộp bài: `1200-twopointers-apartments` (Polygon)
+- Rating: 1200
+- Nộp bài: `1200-twopointers-apartments` (chưa có link nộp bài)
 
 Lời giải: [solution.cpp](solution.cpp)

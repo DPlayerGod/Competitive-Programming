@@ -1,7 +1,7 @@
 # Đoạn dài k có tổng lớn nhất
 
 - Chương 8: Hai con trỏ
-- Rating: 0
-- Nộp bài: `1000-twopointers-windowk` (Polygon)
+- Rating: 1000
+- Nộp bài: `1000-twopointers-windowk` (chưa có link nộp bài)
 
 Lời giải: [solution.cpp](solution.cpp)

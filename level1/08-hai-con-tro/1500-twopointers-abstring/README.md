@@ -1,7 +1,7 @@
 # Vasya và xâu
 
 - Chương 8: Hai con trỏ
-- Rating: 0
-- Nộp bài: `1500-twopointers-abstring` (Polygon)
+- Rating: 1500
+- Nộp bài: `1500-twopointers-abstring` (chưa có link nộp bài)
 
 Lời giải: [solution.cpp](solution.cpp)

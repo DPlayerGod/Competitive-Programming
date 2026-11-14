@@ -1,21 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+int a[200005],ans[200005];
+pair<int,int> q[200005];
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);
-    int n, m; cin >> n >> m;
-    vector<int> a(n);
-    for (int &x : a) cin >> x;
-    vector<pair<int,int>> q(m);                 // (giá trị b, chỉ số)
-    for (int i = 0; i < m; i++) { cin >> q[i].first; q[i].second = i; }
-    sort(a.begin(), a.end());
-    sort(q.begin(), q.end());                   // trả lời truy vấn theo b tăng dần
-    vector<int> ans(m);
-    int j = 0;
-    for (auto &p : q) {
-        while (j < n && a[j] <= p.first) j++;
-        ans[p.second] = j;                      // ghi về đúng vị trí ban đầu
+
+    int n,m; cin >> n >> m;
+    for(int i=1;i<=n;i++) cin >> a[i];
+    for(int i=1;i<=m;i++) { cin >> q[i].first; q[i].second=i; }
+    sort(a+1,a+n+1); sort(q+1,q+m+1);
+    int j=0;
+    for(int i=1;i<=m;i++) {
+        while(j<n && a[j+1]<=q[i].first) j++;
+        ans[q[i].second]=j;
     }
-    for (int x : ans) cout << x << ' ';
+    for(int i=1;i<=m;i++) cout << ans[i] << ' ';
     cout << '\n';
 }

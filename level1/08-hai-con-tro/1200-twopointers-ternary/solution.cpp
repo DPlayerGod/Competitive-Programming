@@ -3,16 +3,17 @@ using namespace std;
 
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);
+
     int t; cin >> t;
-    while (t--) {
-        string s; cin >> s;
-        int n = s.size(), cnt[4] = {0, 0, 0, 0};
-        int l = 0, best = INT_MAX;
-        for (int r = 0; r < n; r++) {
-            cnt[s[r] - '0']++;
-            while (cnt[s[l] - '0'] > 1) cnt[s[l++] - '0']--;   // ký tự trái thừa: bỏ được
-            if (cnt[1] && cnt[2] && cnt[3]) best = min(best, r - l + 1);
+    while(t--) {
+        string s; cin >> s; s=" "+s;
+        int n=s.size()-1,cnt[4]={},l=1,ans=n+1;
+        for(int r=1;r<=n;r++) {
+            cnt[s[r]-'0']++;
+            while(cnt[1] && cnt[2] && cnt[3]) {
+                ans=min(ans,r-l+1); cnt[s[l++]-'0']--;
+            }
         }
-        cout << (best == INT_MAX ? 0 : best) << '\n';
+        cout << (ans==n+1 ? 0 : ans) << '\n';
     }
 }

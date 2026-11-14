@@ -1,17 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+int a[200005],b[200005],cnt[200005];
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);
+
     int n; cin >> n;
-    vector<int> a(n);
-    for (int &x : a) cin >> x;
-    map<int,int> cnt;                    // số lần xuất hiện trong cửa sổ a[l..r]
-    int l = 0, best = 0;
-    for (int r = 0; r < n; r++) {
+
+    for(int i=1;i<=n;i++) { cin >> a[i]; b[i]=a[i]; }
+    sort(b+1,b+n+1);
+    int m=unique(b+1,b+n+1)-b-1;
+    for(int i=1;i<=n;i++) a[i]=lower_bound(b+1,b+m+1,a[i])-b;
+
+    int l=1,ans=0;
+    for(int r=1;r<=n;r++) {
         cnt[a[r]]++;
-        while (cnt[a[r]] > 1) cnt[a[l++]]--;   // bị lặp: bỏ bên trái tới khi hết lặp
-        best = max(best, r - l + 1);
+        while(cnt[a[r]]>1) cnt[a[l++]]--;
+        ans=max(ans,r-l+1);
     }
-    cout << best << '\n';
+    cout << ans << '\n';
 }
